@@ -1,0 +1,25 @@
+CRITICAL - 2024-01-17 02:12:17 --> Undefined variable $page
+in APPPATH\Views\admin\home.php on line 13.
+ 1 APPPATH\Views\admin\home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\admin\\home.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\admin\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/admin/home', [], true)
+ 5 APPPATH\Controllers\AdminController.php(37): view('/admin/home')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->home()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-17 02:13:11 --> include(.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\home.php on line 13.
+ 1 APPPATH\Views\admin\home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(.php): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\admin\\home.php', 13)
+ 2 APPPATH\Views\admin\home.php(13): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\admin\\home.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/admin/home', [], true)
+ 6 APPPATH\Controllers\AdminController.php(37): view('/admin/home')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->home()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')

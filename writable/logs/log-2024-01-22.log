@@ -1,0 +1,264 @@
+ERROR - 2024-01-22 00:31:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'dankeneth221133...', 'coffeedb', 3306, '', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-01-22 00:31:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-22 00:32:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'dankeneth221133...', 'coffeedb', 3306, '', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(56): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(56): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-01-22 00:32:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `orders`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\AdminController.php(56): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-22 00:32:16 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'dankeneth221133...', 'coffeedb', 3306, '', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(56): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(56): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-01-22 00:32:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `orders`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\AdminController.php(56): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-22 00:50:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'dankeneth221133...', 'coffeedb', 3306, '', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\InventoryController.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\CoffeeLedger\app\Controllers\InventoryController.php(23): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-01-22 00:50:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `hotcoffee`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\InventoryController.php(23): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-22 00:51:25 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'dankeneth221133...', 'coffeedb', 3306, '', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(56): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(56): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-01-22 00:51:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `orders`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\AdminController.php(56): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-22 00:51:33 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'dankeneth221133...', 'coffeedb', 3306, '', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\InventoryController.php(72): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\InventoryController->geticedcoffee()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\CoffeeLedger\app\Controllers\InventoryController.php(72): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\InventoryController->geticedcoffee()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2024-01-22 00:51:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `icedcoffee`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\InventoryController.php(72): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->geticedcoffee()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')

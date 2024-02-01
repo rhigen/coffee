@@ -1,0 +1,107 @@
+CRITICAL - 2024-01-26 00:20:54 --> Invalid file: "/inventory/hotcoffee.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/inventory/hotcoffee.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 3 APPPATH\Controllers\InventoryController.php(25): view('/inventory/hotcoffee', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-26 00:21:07 --> Invalid file: "/inventory/hotcoffee.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/inventory/hotcoffee.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 3 APPPATH\Controllers\InventoryController.php(25): view('/inventory/hotcoffee', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-26 00:21:09 --> Invalid file: "/inventory/hotcoffee.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/inventory/hotcoffee.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 3 APPPATH\Controllers\InventoryController.php(25): view('/inventory/hotcoffee', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-26 00:21:36 --> Invalid file: "/inventory/hotcoffee.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/inventory/hotcoffee.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 3 APPPATH\Controllers\InventoryController.php(25): view('/inventory/hotcoffee', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-26 00:42:27 --> Invalid file: "/inventory/editflavoredcoffee.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/inventory/editflavoredcoffee.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/editflavoredcoffee', [], true)
+ 3 APPPATH\Controllers\InventoryController.php(162): view('/inventory/editflavoredcoffee', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->editflavored('84')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-26 00:43:24 --> Invalid file: "/inventory/editflavoredcoffee.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/inventory/editflavoredcoffee.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/editflavoredcoffee', [], true)
+ 3 APPPATH\Controllers\InventoryController.php(162): view('/inventory/editflavoredcoffee', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->editflavored('84')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-26 01:46:48 --> Call to a member function model() on null
+in APPPATH\Controllers\AdminController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-26 01:47:26 --> Call to a member function model() on null
+in APPPATH\Controllers\AdminController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-26 01:47:27 --> Call to a member function model() on null
+in APPPATH\Controllers\AdminController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-26 01:47:27 --> Call to a member function model() on null
+in APPPATH\Controllers\AdminController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-26 01:47:27 --> Call to a member function model() on null
+in APPPATH\Controllers\AdminController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-26 01:49:05 --> Undefined array key "prod_name"
+in APPPATH\Views\admin\history.php on line 83.
+ 1 APPPATH\Views\admin\history.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prod_name"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\admin\\history.php', 83)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\admin\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/admin/history', [], true)
+ 5 APPPATH\Controllers\AdminController.php(60): view('/admin/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')

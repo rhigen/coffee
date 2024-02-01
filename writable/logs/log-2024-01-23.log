@@ -1,0 +1,1632 @@
+<<<<<<< HEAD
+CRITICAL - 2024-01-23 13:40:17 --> syntax error, unexpected token "<<", expecting "]"
+in APPPATH\Config\Database.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CoffeeLedger\\app\\Config\\Database.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Database')
+ 3 SYSTEMPATH\Model.php(151): CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Database')
+ 4 APPPATH\Controllers\AdminController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\AdminController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:41:00 --> Cannot redeclare App\Controllers\InventoryController::updateflavoredcoffee()
+in APPPATH\Controllers\InventoryController.php on line 358.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-23 13:43:01 --> Cannot redeclare App\Controllers\InventoryController::deleteflavored()
+in APPPATH\Controllers\InventoryController.php on line 374.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-23 13:43:03 --> Cannot redeclare App\Controllers\InventoryController::deleteflavored()
+in APPPATH\Controllers\InventoryController.php on line 374.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-23 13:43:30 --> Cannot redeclare App\Controllers\InventoryController::deleteflavored()
+in APPPATH\Controllers\InventoryController.php on line 431.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-23 13:43:32 --> Cannot redeclare App\Controllers\InventoryController::deleteflavored()
+in APPPATH\Controllers\InventoryController.php on line 431.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-23 13:43:32 --> Cannot redeclare App\Controllers\InventoryController::deleteflavored()
+in APPPATH\Controllers\InventoryController.php on line 431.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-23 13:43:33 --> Cannot redeclare App\Controllers\InventoryController::deleteflavored()
+in APPPATH\Controllers\InventoryController.php on line 431.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-23 13:43:37 --> Cannot redeclare App\Controllers\InventoryController::deleteflavored()
+in APPPATH\Controllers\InventoryController.php on line 431.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-23 13:43:38 --> Cannot redeclare App\Controllers\InventoryController::deleteflavored()
+in APPPATH\Controllers\InventoryController.php on line 431.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-23 13:43:38 --> Cannot redeclare App\Controllers\InventoryController::deleteflavored()
+in APPPATH\Controllers\InventoryController.php on line 431.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-23 13:43:39 --> Cannot redeclare App\Controllers\InventoryController::deleteflavored()
+in APPPATH\Controllers\InventoryController.php on line 431.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-23 13:43:39 --> Cannot redeclare App\Controllers\InventoryController::deleteflavored()
+in APPPATH\Controllers\InventoryController.php on line 431.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-23 13:43:57 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:44:25 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:44:25 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:44:26 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:44:28 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:44:29 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:44:29 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:44:29 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:44:29 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:44:30 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:44:30 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:44:37 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:44:38 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:44:38 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:46:40 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:46:41 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:46:42 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:46:43 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:46:43 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:46:44 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:46:44 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:46:45 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:47:02 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:47:03 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:47:03 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:47:03 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:47:04 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:47:04 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:47:04 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:47:04 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:47:05 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:49:24 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:49:25 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:49:25 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:49:25 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:49:25 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:51:04 --> Call to a member function wher() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:51:05 --> Call to a member function wher() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:51:05 --> Call to a member function wher() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:51:09 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:51:09 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:51:10 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:51:23 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:51:23 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:51:24 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:51:24 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:51:25 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:51:25 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:51:26 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:52:03 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:52:04 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:52:04 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:52:43 --> Undefined property: App\Controllers\InventoryController::$pdct
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 APPPATH\Controllers\InventoryController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\InventoryController::$pdct', 'C:\\laragon\\www\\CoffeeLedger\\app\\Controllers\\InventoryController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:52:44 --> Undefined property: App\Controllers\InventoryController::$pdct
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 APPPATH\Controllers\InventoryController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\InventoryController::$pdct', 'C:\\laragon\\www\\CoffeeLedger\\app\\Controllers\\InventoryController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:52:44 --> Undefined property: App\Controllers\InventoryController::$pdct
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 APPPATH\Controllers\InventoryController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\InventoryController::$pdct', 'C:\\laragon\\www\\CoffeeLedger\\app\\Controllers\\InventoryController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:52:44 --> Undefined property: App\Controllers\InventoryController::$pdct
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 APPPATH\Controllers\InventoryController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\InventoryController::$pdct', 'C:\\laragon\\www\\CoffeeLedger\\app\\Controllers\\InventoryController.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:52:51 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:52:52 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:52:52 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:53:07 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:53:07 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:53:08 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:53:08 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:53:53 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:53:54 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:53:54 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:53:54 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:53:55 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:53:55 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:53:55 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:53:55 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:53:55 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:54:01 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:54:02 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:54:02 --> Call to a member function findAll() on null
+in APPPATH\Controllers\InventoryController.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:54:23 --> Undefined array key "coffee_id"
+in APPPATH\Views\inventory\hotcoffee.php on line 97.
+ 1 APPPATH\Views\inventory\hotcoffee.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "coffee_id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php', 97)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(87): view('/inventory/hotcoffee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:55:19 --> Undefined array key "coffee_id"
+in APPPATH\Views\inventory\hotcoffee.php on line 97.
+ 1 APPPATH\Views\inventory\hotcoffee.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "coffee_id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php', 97)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(87): view('/inventory/hotcoffee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:55:19 --> Undefined array key "coffee_id"
+in APPPATH\Views\inventory\hotcoffee.php on line 97.
+ 1 APPPATH\Views\inventory\hotcoffee.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "coffee_id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php', 97)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(87): view('/inventory/hotcoffee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:55:19 --> Undefined array key "coffee_id"
+in APPPATH\Views\inventory\hotcoffee.php on line 97.
+ 1 APPPATH\Views\inventory\hotcoffee.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "coffee_id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php', 97)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(87): view('/inventory/hotcoffee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:57:46 --> Undefined array key "coffee_id"
+in APPPATH\Views\inventory\hotcoffee.php on line 118.
+ 1 APPPATH\Views\inventory\hotcoffee.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "coffee_id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(87): view('/inventory/hotcoffee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:57:48 --> Undefined array key "coffee_id"
+in APPPATH\Views\inventory\hotcoffee.php on line 118.
+ 1 APPPATH\Views\inventory\hotcoffee.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "coffee_id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(87): view('/inventory/hotcoffee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:57:49 --> Undefined array key "coffee_id"
+in APPPATH\Views\inventory\hotcoffee.php on line 118.
+ 1 APPPATH\Views\inventory\hotcoffee.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "coffee_id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(87): view('/inventory/hotcoffee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:57:49 --> Undefined array key "coffee_id"
+in APPPATH\Views\inventory\hotcoffee.php on line 118.
+ 1 APPPATH\Views\inventory\hotcoffee.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "coffee_id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(87): view('/inventory/hotcoffee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:57:49 --> Undefined array key "coffee_id"
+in APPPATH\Views\inventory\hotcoffee.php on line 118.
+ 1 APPPATH\Views\inventory\hotcoffee.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "coffee_id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(87): view('/inventory/hotcoffee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:57:49 --> Undefined array key "coffee_id"
+in APPPATH\Views\inventory\hotcoffee.php on line 118.
+ 1 APPPATH\Views\inventory\hotcoffee.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "coffee_id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(87): view('/inventory/hotcoffee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:57:50 --> Undefined array key "coffee_id"
+in APPPATH\Views\inventory\hotcoffee.php on line 118.
+ 1 APPPATH\Views\inventory\hotcoffee.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "coffee_id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(87): view('/inventory/hotcoffee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 13:57:50 --> Undefined array key "coffee_id"
+in APPPATH\Views\inventory\hotcoffee.php on line 118.
+ 1 APPPATH\Views\inventory\hotcoffee.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "coffee_id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\hotcoffee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/hotcoffee', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(87): view('/inventory/hotcoffee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 14:10:04 --> mysqli_sql_exception: Unknown column 'ProductPrice' in 'field list' in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\CoffeeLedger\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\CoffeeLedger\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\CoffeeLedger\app\Controllers\InventoryController.php(42): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\InventoryController->addproduct()
+#10 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+#11 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-01-23 14:10:04 --> Unknown column 'ProductPrice' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_tbl` (`productName`, `ProductQuantity`, `ProductPrice`, `ProductCategory`, `ProductCode`, `ProductDescription`) VALUES (:productName:, :ProductQuantity:, :ProductPrice:, :ProductCategory:, :ProductCode:, :ProductDescription:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\InventoryController.php(42): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->addproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 14:10:49 --> mysqli_sql_exception: Column 'ProductCategory' cannot be null in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\CoffeeLedger\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\CoffeeLedger\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\CoffeeLedger\app\Controllers\InventoryController.php(42): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\InventoryController->addproduct()
+#10 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+#11 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-01-23 14:10:49 --> Column 'ProductCategory' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product_tbl` (`productName`, `ProductQuantity`, `ProductCategory`, `ProductCode`, `ProductDescription`) VALUES (:productName:, :ProductQuantity:, :ProductCategory:, :ProductCode:, :ProductDescription:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\InventoryController.php(42): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->addproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 14:30:57 --> Undefined array key "coffee_id"
+in APPPATH\Views\inventory\icedcoffee.php on line 97.
+ 1 APPPATH\Views\inventory\icedcoffee.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "coffee_id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\icedcoffee.php', 97)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\icedcoffee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/icedcoffee', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(155): view('/inventory/icedcoffee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->geticedcoffee()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 14:55:25 --> "regrex_match" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('regrex_match')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('ContactNo', 'ContactNo', '09085353978', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(25): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->register()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 14:55:47 --> Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\UserController.php(42): view('register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 14:56:19 --> Invalid file: "admin/adminregister.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/adminregister.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/adminregister', [], true)
+ 3 APPPATH\Controllers\UserController.php(42): view('admin/adminregister', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 15:07:45 --> Call to a member function save() on null
+in APPPATH\Controllers\UserController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 15:08:09 --> mysqli_sql_exception: Column 'file' cannot be null in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\CoffeeLedger\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\CoffeeLedger\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\CoffeeLedger\app\Controllers\UserController.php(42): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\UserController->register()
+#10 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-01-23 15:08:09 --> Column 'file' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`LastName`, `FirstName`, `gender`, `email`, `ContactNo`, `UserRole`, `file`, `Password`, `address`, `birthdate`) VALUES (:LastName:, :FirstName:, :gender:, :email:, :ContactNo:, :UserRole:, :file:, :Password:, :address:, :birthdate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(42): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 15:09:26 --> mysqli_sql_exception: Column 'address' cannot be null in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\CoffeeLedger\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\CoffeeLedger\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\CoffeeLedger\app\Controllers\UserController.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\UserController->register()
+#10 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-01-23 15:09:26 --> Column 'address' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`LastName`, `FirstName`, `gender`, `email`, `ContactNo`, `UserRole`, `Password`, `address`, `birthdate`) VALUES (:LastName:, :FirstName:, :gender:, :email:, :ContactNo:, :UserRole:, :Password:, :address:, :birthdate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(41): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 15:09:48 --> mysqli_sql_exception: Column 'address' cannot be null in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\CoffeeLedger\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\CoffeeLedger\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\CoffeeLedger\app\Controllers\UserController.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\UserController->register()
+#10 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-01-23 15:09:48 --> Column 'address' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`LastName`, `FirstName`, `gender`, `email`, `ContactNo`, `UserRole`, `Password`, `address`, `birthdate`) VALUES (:LastName:, :FirstName:, :gender:, :email:, :ContactNo:, :UserRole:, :Password:, :address:, :birthdate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(41): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 15:09:50 --> mysqli_sql_exception: Column 'address' cannot be null in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\CoffeeLedger\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\CoffeeLedger\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\CoffeeLedger\app\Controllers\UserController.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\UserController->register()
+#10 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-01-23 15:09:50 --> Column 'address' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`LastName`, `FirstName`, `gender`, `email`, `ContactNo`, `UserRole`, `Password`, `address`, `birthdate`) VALUES (:LastName:, :FirstName:, :gender:, :email:, :ContactNo:, :UserRole:, :Password:, :address:, :birthdate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(41): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 15:50:05 --> syntax error, unexpected variable "$authenticatePassword"
+in APPPATH\Controllers\UserController.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\CoffeeLedger\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 15:50:24 --> Class "App\Controllers\session" not found
+in APPPATH\Controllers\UserController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 16:04:54 --> Call to undefined function App\Controllers\set()
+in APPPATH\Controllers\UserController.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 16:13:11 --> mysqli_sql_exception: Table 'coffeeledgerdb.users' doesn't exist in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-01-23 16:13:11 --> Table 'coffeeledgerdb.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 16:14:25 --> mysqli_sql_exception: Table 'coffeeledgerdb.users' doesn't exist in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-01-23 16:14:25 --> Table 'coffeeledgerdb.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 16:14:26 --> mysqli_sql_exception: Table 'coffeeledgerdb.users' doesn't exist in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-01-23 16:14:26 --> Table 'coffeeledgerdb.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 16:14:28 --> mysqli_sql_exception: Table 'coffeeledgerdb.users' doesn't exist in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-01-23 16:14:28 --> Table 'coffeeledgerdb.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 16:14:29 --> mysqli_sql_exception: Table 'coffeeledgerdb.users' doesn't exist in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-01-23 16:14:29 --> Table 'coffeeledgerdb.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 16:31:07 --> syntax error, unexpected token "=>", expecting ")"
+in APPPATH\Config\Routes.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 16:31:35 --> "authfilter" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 350.
+ 1 SYSTEMPATH\Filters\Filters.php(350): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authfilter')
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\Filters\Filters->enableFilter('authfilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 16:37:11 --> syntax error, unexpected token "=>", expecting "]"
+in APPPATH\Config\Routes.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+=======
+ERROR - 2024-01-23 00:19:39 --> mysqli_sql_exception: Unknown column 'hotcoffee' in 'field list' in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `hotcoff...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hotcoff...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hotcoff...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `hotcoff...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\InventoryController.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-01-23 00:19:39 --> Unknown column 'hotcoffee' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `hotcoffee`
+FROM `hotcoffee`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\InventoryController.php(31): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 00:22:24 --> mysqli_sql_exception: Table 'coffeeledgerdb.orders' doesn't exist in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(56): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-01-23 00:22:24 --> Table 'coffeeledgerdb.orders' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `orders`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AdminController.php(56): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->gethistory()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 00:22:27 --> mysqli_sql_exception: Table 'coffeeledgerdb.users' doesn't exist in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-01-23 00:22:27 --> Table 'coffeeledgerdb.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 00:22:29 --> mysqli_sql_exception: Table 'coffeeledgerdb.users' doesn't exist in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-01-23 00:22:29 --> Table 'coffeeledgerdb.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 00:22:38 --> mysqli_sql_exception: Table 'coffeeledgerdb.hotcoffee' doesn't exist in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `hotcoff...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hotcoff...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hotcoff...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `hotcoff...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\InventoryController.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-01-23 00:22:38 --> Table 'coffeeledgerdb.hotcoffee' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `hotcoffee`
+FROM `hotcoffee`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\InventoryController.php(31): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->gethotcoffee()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+ERROR - 2024-01-23 00:22:41 --> mysqli_sql_exception: Table 'coffeeledgerdb.users' doesn't exist in C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\CoffeeLedger\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\CoffeeLedger\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\CoffeeLedger\app\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+#8 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\laragon\www\CoffeeLedger\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CoffeeLedger\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CoffeeLedger\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2024-01-23 00:22:41 --> Table 'coffeeledgerdb.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AdminController.php(63): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->getmanageuser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 00:41:52 --> Invalid file: "adminregister.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adminregister.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adminregister', [], true)
+ 3 APPPATH\Controllers\AdminController.php(127): view('adminregister', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 00:41:53 --> Invalid file: "adminregister.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adminregister.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adminregister', [], true)
+ 3 APPPATH\Controllers\AdminController.php(127): view('adminregister', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 00:41:55 --> Undefined property: App\Controllers\AdminController::$user
+in APPPATH\Controllers\AdminController.php on line 137.
+ 1 APPPATH\Controllers\AdminController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$user', 'C:\\laragon\\www\\CoffeeLedger\\app\\Controllers\\AdminController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 02:23:25 --> Call to a member function select() on null
+in APPPATH\Controllers\InventoryController.php on line 263.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->getmeal()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 02:31:49 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 263.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->getmeal()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 02:33:01 --> Call to a member function select() on null
+in APPPATH\Controllers\InventoryController.php on line 263.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->getmeal()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 02:33:32 --> Call to a member function where() on null
+in APPPATH\Controllers\InventoryController.php on line 263.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->getmeal()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 02:40:00 --> Call to undefined method App\Models\ProductModel::getProductsByCategory
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\InventoryController.php(264): CodeIgniter\Model->__call('getProductsByCategory', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->getmeal()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 02:40:48 --> Call to undefined method App\Models\ProductModel::getmeal
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\InventoryController.php(264): CodeIgniter\Model->__call('getmeal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->getmeal()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 02:40:49 --> Call to undefined method App\Models\ProductModel::getmeal
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\InventoryController.php(264): CodeIgniter\Model->__call('getmeal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->getmeal()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 02:42:07 --> Undefined array key "id"
+in APPPATH\Views\inventory\meal.php on line 103.
+ 1 APPPATH\Views\inventory\meal.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\meal.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\meal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/meal', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(265): view('/inventory/meal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->getmeal()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 02:46:02 --> Undefined array key "id"
+in APPPATH\Views\inventory\editmeal.php on line 26.
+ 1 APPPATH\Views\inventory\editmeal.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\editmeal.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\editmeal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/editmeal', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(287): view('/inventory/editmeal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->editmeal('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 02:50:25 --> Undefined property: App\Controllers\InventoryController::$prdct
+in APPPATH\Controllers\InventoryController.php on line 311.
+ 1 APPPATH\Controllers\InventoryController.php(311): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\InventoryController::$prdct', 'C:\\laragon\\www\\CoffeeLedger\\app\\Controllers\\InventoryController.php', 311)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->getpasta()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 02:52:21 --> Call to undefined method App\Models\ProductModel::getmeal
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\InventoryController.php(264): CodeIgniter\Model->__call('getmeal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->getmeal()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:06:15 --> Undefined variable $get
+in APPPATH\Views\inventory\addmeal.php on line 28.
+ 1 APPPATH\Views\inventory\addmeal.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $get', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/addmeal', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(263): view('/inventory/addmeal')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->ricemeal()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:07:00 --> Undefined variable $prod
+in APPPATH\Views\inventory\addmeal.php on line 28.
+ 1 APPPATH\Views\inventory\addmeal.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/addmeal', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(263): view('/inventory/addmeal')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->ricemeal()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:07:38 --> Undefined variable $prod
+in APPPATH\Views\inventory\addmeal.php on line 28.
+ 1 APPPATH\Views\inventory\addmeal.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/addmeal', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(263): view('/inventory/addmeal')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->ricemeal()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:08:04 --> Undefined variable $data
+in APPPATH\Views\inventory\addmeal.php on line 28.
+ 1 APPPATH\Views\inventory\addmeal.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/addmeal', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(263): view('/inventory/addmeal')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->ricemeal()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:08:05 --> Undefined variable $data
+in APPPATH\Views\inventory\addmeal.php on line 28.
+ 1 APPPATH\Views\inventory\addmeal.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/addmeal', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(263): view('/inventory/addmeal')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->ricemeal()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:08:59 --> Undefined variable $data
+in APPPATH\Views\inventory\addmeal.php on line 28.
+ 1 APPPATH\Views\inventory\addmeal.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/addmeal', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(263): view('/inventory/addmeal')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->ricemeal()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:09:39 --> Undefined variable $prod
+in APPPATH\Views\inventory\addmeal.php on line 28.
+ 1 APPPATH\Views\inventory\addmeal.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/addmeal', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(263): view('/inventory/addmeal')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->ricemeal()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:09:39 --> Undefined variable $prod
+in APPPATH\Views\inventory\addmeal.php on line 28.
+ 1 APPPATH\Views\inventory\addmeal.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/addmeal', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(263): view('/inventory/addmeal')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->ricemeal()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:23:12 --> Undefined variable $get
+in APPPATH\Views\inventory\addmeal.php on line 28.
+ 1 APPPATH\Views\inventory\addmeal.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $get', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/addmeal', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(263): view('/inventory/addmeal')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->ricemeal()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:23:51 --> Undefined variable $prod
+in APPPATH\Views\inventory\addmeal.php on line 28.
+ 1 APPPATH\Views\inventory\addmeal.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/addmeal', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(263): view('/inventory/addmeal')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->ricemeal()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:24:18 --> Undefined variable $pro
+in APPPATH\Views\inventory\addmeal.php on line 28.
+ 1 APPPATH\Views\inventory\addmeal.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pro', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/addmeal', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(263): view('/inventory/addmeal')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->ricemeal()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:25:22 --> Undefined variable $prod
+in APPPATH\Views\inventory\addmeal.php on line 28.
+ 1 APPPATH\Views\inventory\addmeal.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\addmeal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/addmeal', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(263): view('/inventory/addmeal')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->ricemeal()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:33:56 --> Undefined variable $app
+in APPPATH\Views\inventory\appetizer.php on line 93.
+ 1 APPPATH\Views\inventory\appetizer.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $app', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\appetizer.php', 93)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\appetizer.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/appetizer', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(365): view('/inventory/appetizer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->getappetizer()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:36:16 --> Undefined variable $app
+in APPPATH\Views\inventory\appetizer.php on line 97.
+ 1 APPPATH\Views\inventory\appetizer.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $app', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\appetizer.php', 97)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\appetizer.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/appetizer', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(365): view('/inventory/appetizer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->getappetizer()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:37:05 --> Class "App\Controllers\AppetizerModel" not found
+in APPPATH\Controllers\InventoryController.php on line 385.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->editappetizer('1')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:38:08 --> Undefined array key "id"
+in APPPATH\Views\inventory\editappetizer.php on line 26.
+ 1 APPPATH\Views\inventory\editappetizer.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\editappetizer.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\editappetizer.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/editappetizer', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(390): view('/inventory/editappetizer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->editappetizer('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:39:55 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\InventoryController.php(400): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->updateappetizer('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 03:44:47 --> Undefined variable $salad
+in APPPATH\Views\inventory\salad.php on line 93.
+ 1 APPPATH\Views\inventory\salad.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $salad', 'C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\salad.php', 93)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\CoffeeLedger\\app\\Views\\inventory\\salad.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/inventory/salad', [], true)
+ 5 APPPATH\Controllers\InventoryController.php(418): view('/inventory/salad', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->getsalad()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+CRITICAL - 2024-01-23 04:50:25 --> Undefined property: App\Controllers\InventoryController::$prdct
+in APPPATH\Controllers\InventoryController.php on line 208.
+ 1 APPPATH\Controllers\InventoryController.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\InventoryController::$prdct', 'C:\\laragon\\www\\CoffeeLedger\\app\\Controllers\\InventoryController.php', 208)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InventoryController->getcoffeefrappe()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InventoryController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger\\public\\index.php')
+>>>>>>> d59385cfe127a8b84701fcc15b2e5d095fb1e483
