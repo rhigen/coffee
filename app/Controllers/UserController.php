@@ -41,13 +41,13 @@ class UserController extends BaseController
                 'birthdate' => $this->request->getVar('birthdate'),
             ];
             $this->user->save($data);
-            return redirect()->to('/adminlogin');
+            return redirect()->to('/');
 
 
         }
         else{
             $data['validation']= $this->validator;
-            return view('adminregister', $data);
+            return view('admin/register', $data);
         }
     }
 
@@ -60,15 +60,6 @@ class UserController extends BaseController
 
         $user = $this->user->where('email', $email)->first();
 
-        // if(is_null($user)){
-        //     return redirect()->back()->withInput()->with('error', 'Invalid Username or Password!');
-        // }
-
-        // $pass_verify = password_verify($password, $user['password']);
-
-        // if(!$pass_verify){
-        //     return redirect()->back()->withInput()->with('error', 'Invalid Username or Password!');            
-        // }
         if($user)
             {
                 $pass = $user['Password'];
@@ -78,15 +69,14 @@ class UserController extends BaseController
             'UserID' => $user['UserID'],
             'LastName' => $user['LastName'],
             'FirstName' => $user['FirstName'],
-            'email' => $user['email'],
-            'gender' => $user['gender'],
-            'ContactNo' => $user['ContactNo'],
-            'file' => $user['file'],
             'UserRole' => $user['UserRole'],
             'birthdate' => $user['birthdate'],
-            'address' => $user['address'],
+            'email' => $user['email'],
             'Username' => $user['Username'],
             'Password' => $user['Password'],
+            'ContactNo' => $user['ContactNo'],
+            'gender' => $user['gender'],
+            'address' => $user['address'],
             'isLoggedIn' => TRUE
         ];
 
@@ -95,18 +85,18 @@ class UserController extends BaseController
                 }
                 else{
                     $session->setFlashdata('msg', 'Password is incorrect.');
-                    return redirect()->to('/login');
+                    return redirect()->to('/');
                 }
             }
             else{
                 $session->setFlashdata('msg', 'Email does not exist.');
-                return redirect()->to('/login');
+                return redirect()->to('/');
             }
 
     }
 
     public function logout(){
         session_destroy();
-        return redirect()->to('/adminlogin');
+        return redirect()->to('/');
     }
 }

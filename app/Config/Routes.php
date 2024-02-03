@@ -5,10 +5,10 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
 
-$routes->get('/login', 'AdminController::login',['filter'=>'guestFilter']);
-$routes->get('/adminregister', 'AdminController::register', ['filter'=>'guestFilter']);
+
+$routes->get('/', 'AdminController::login',['filter'=>'guestFilter']);
+$routes->get('/register', 'AdminController::register', ['filter'=>'guestFilter']);
 $routes->get('/adminhome', 'AdminController::home', ['filter'=>'authFilter']);
 $routes->get('/admindash', 'AdminController::dashboard', ['filter'=>'authFilter']);
 $routes->get('/admininventory', 'AdminController::inventory', ['filter'=>'authFilter']);
@@ -20,7 +20,7 @@ $routes->post('/adminadduser', 'AdminController::adduser', ['filter'=>'authFilte
 $routes->get('/adminedituser/(:any)', 'AdminController::edituser/$1');
 $routes->post('/updateuser/(:any)', 'AdminController::updateuser/$1');
 $routes->get('/deleteuser/(:any)', 'AdminController::deleteuser/$1');
-$routes->post('/register', 'UserController::register', ['filter'=>'guestFilter']);
+$routes->post('/adminregister', 'UserController::register');
 $routes->post('/loginAuth', 'UserController::login', ['filter'=>'guestFilter']);
 $routes->get('logout', 'UserController::logout', ['filter'=>'authFilter']);
                     /* For Inventory */

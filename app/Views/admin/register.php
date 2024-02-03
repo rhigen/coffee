@@ -39,31 +39,80 @@
                                     </div><br>
                                     <div class="card-body">
                                         <form action="<?= base_url("adminregister"); ?>" role="form" class="text-start" method="POST">
+                                        <div class="input-group input-group-outline mb-3">
+                                                <label class="form-label">Last Name</label>
+                                                <input type="text" name="LastName" class="form-control" required>
+                                                <?php if(isset($validation)):?>
+                                <small class="text-danger"><?= $validation->getError('LastName') ?></small>
+                            <?php endif;?>
+                                            </div>
+                                            
                                             <div class="input-group input-group-outline mb-3">
-                                                <label class="form-label">Name</label>
-                                                <input type="text" name="name" class="form-control" required>
+                                                <label class="form-label">First Name</label>
+                                                <input type="text" name="FirstName" class="form-control" required>
+                                                <?php if(isset($validation)):?>
+                                <small class="text-danger"><?= $validation->getError('FirstName') ?></small>
+                            <?php endif;?>
                                             </div>
                                             <div class="input-group input-group-outline mb-3">
                                                 <label class="form-label">Username</label>
-                                                <input type="text" name="username" class="form-control" required>
+                                                <input type="text" name="Username" class="form-control" required>
+                                                <?php if(isset($validation)):?>
+                                <small class="text-danger"><?= $validation->getError('Username') ?></small>
+                            <?php endif;?>
                                             </div>
                                             <div class="input-group input-group-outline mb-3">
-                                                <label class="form-label">Password</label>
-                                                <input type="password" name="password" class="form-control" required>
+                                                <label class="form-label">Email</label>
+                                                <input type="text" name="email" class="form-control" required>
+                                     
                                             </div>
-                                            <select name="role">
-                                                <option>Admin</option>
-                                                <option>Manager</option>
-                                                <option>Owner</option>
-                                                <option>Staff</option>
-                                            </select>
+                                            <?php if(isset($validation)):?>
+                                <small class="text-danger"><?= $validation->getError('email') ?></small>
+                            <?php endif;?>
+                                            <div class="input-group input-group-outline mb-3">
+                                                <label class="form-label">Password</label>
+                                                <input type="password" name="Password" class="form-control" required>
+                                                <?php if(isset($validation)):?>
+                                <small class="text-danger"><?= $validation->getError('Password') ?></small>
+                            <?php endif;?>
+                                            </div>
+                                            <div class="input-group input-group-outline mb-3">
+                                                <label class="form-label">Contact Number</label>
+                                                <input type="text" name="ContactNo" class="form-control" required>
+                                             
+                                            </div>
+                                            <?php if(isset($validation)):?>
+                                <small class="text-danger"><?= $validation->getError('ContactNo') ?></small>
+                            <?php endif;?>
+                                            <div class="input-group input-group-outline mb-3">
+                                            <select name="gender" id="" class="form-control "><option disabled selected>Gender</option><option value="male">Male</option><option value="female">Female</option></select>    
+                                            <?php if(isset($validation)):?>
+                                <small class="text-danger"><?= $validation->getError('gender') ?></small>
+                            <?php endif;?>
+                                            </div>
+                                            <div class="input-group input-group-outline mb-3">
+                                            <label>Birth Day:</label>
+                                        
+                                                <input type="date" name="birthdate" class="form-control" required>
+                                                <?php if(isset($validation)):?>
+                                <small class="text-danger"><?= $validation->getError('birthdate') ?></small>
+                            <?php endif;?>
+                                            </div>
+                                            <div class="input-group input-group-outline mb-3">
+                                                <label class="form-label">Address</label>
+                                                <input type="text" name="address" class="form-control" required>
+                                                <?php if(isset($validation)):?>
+                                <small class="text-danger"><?= $validation->getError('address') ?></small>
+                            <?php endif;?>
+                                            </div>
+                                           <input type="hidden" name="UserRole" value="customer">
                                             <div class="text-center">
                                                 <button type="submit" class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0">Register</button>
                                             </div>
                                         </form>
                                     </div><br>
                                     <div class="card-footer text-center pt-0 px-lg-2 px-1">
-                                        <p class="mb-2 text-sm mx-auto">Already have an account?<a href="<?= site_url("login"); ?>" class="text-primary text-gradient font-weight-bold">Sign in</a></p><br>
+                                        <p class="mb-2 text-sm mx-auto">Already have an account?<a href="<?= site_url(); ?>" class="text-primary text-gradient font-weight-bold">Sign in</a></p><br>
                                     </div>
                                 </div>
                             </div>

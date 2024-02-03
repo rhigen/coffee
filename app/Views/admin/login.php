@@ -31,13 +31,19 @@
                                     <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                                         <div class="bg-gradient-primary shadow-primary border-radius-lg py-3 pe-1">
                                             <h4 class="text-white font-weight-bolder text-center mt-2 mb-0">Log in</h4>
+                                            <?php if(session()->getFlashdata('msg')):?>
+                                                <div class="alert alert-warning">
+                                                    <?= session()->getFlashdata('msg') ?>
+
+                                                </div>
+                                                <?php endif;?>
                                         </div>
                                     </div>
                                     <div class="card-body">
-                                        <form action="<?= base_url("adminlogin"); ?>" role="form" class="text-start" method="POST">
+                                        <form action="<?= base_url("loginAuth"); ?>" role="form" class="text-start" method="POST">
                                             <div class="input-group input-group-outline my-3">
-                                                <label class="form-label">Username</label>
-                                                <input type="username" name="username" class="form-control" required>
+                                                <label class="form-label">Email</label>
+                                                <input type="email" name="email" class="form-control" required>
                                             </div>
                                             <div class="input-group input-group-outline mb-3">
                                                 <label class="form-label">Password</label>

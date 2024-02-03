@@ -1,0 +1,122 @@
+ERROR - 2024-02-03 13:03:58 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\laragon\www\CoffeeLedger-System\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger-System\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'coffeeledgerdb', 3306, '', 0)
+#1 C:\laragon\www\CoffeeLedger-System\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\CoffeeLedger-System\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\CoffeeLedger-System\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\CoffeeLedger-System\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CoffeeLedger-System\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('rontaledankenet...', 'email', Array, NULL, 'email')
+#6 C:\laragon\www\CoffeeLedger-System\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'rontaledankenet...', Array, Array)
+#7 C:\laragon\www\CoffeeLedger-System\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\CoffeeLedger-System\app\Controllers\UserController.php(30): CodeIgniter\Controller->validate(Array)
+#9 C:\laragon\www\CoffeeLedger-System\system\CodeIgniter.php(919): App\Controllers\UserController->register()
+#10 C:\laragon\www\CoffeeLedger-System\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\laragon\www\CoffeeLedger-System\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CoffeeLedger-System\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CoffeeLedger-System\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\laragon\www\CoffeeLedger-System\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger-System\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\CoffeeLedger-System\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\CoffeeLedger-System\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\laragon\www\CoffeeLedger-System\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\CoffeeLedger-System\system\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('rontaledankenet...', 'email', Array, NULL, 'email')
+#5 C:\laragon\www\CoffeeLedger-System\system\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'rontaledankenet...', Array, Array)
+#6 C:\laragon\www\CoffeeLedger-System\system\Controller.php(150): CodeIgniter\Validation\Validation->run()
+#7 C:\laragon\www\CoffeeLedger-System\app\Controllers\UserController.php(30): CodeIgniter\Controller->validate(Array)
+#8 C:\laragon\www\CoffeeLedger-System\system\CodeIgniter.php(919): App\Controllers\UserController->register()
+#9 C:\laragon\www\CoffeeLedger-System\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\laragon\www\CoffeeLedger-System\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\CoffeeLedger-System\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\CoffeeLedger-System\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-02-03 13:03:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `user`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(309): CodeIgniter\Validation\StrictRules\Rules->is_unique('rontaledankeneth@gmail.com', 'email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('email', 'email', 'rontaledankeneth@gmail.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\UserController.php(30): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->register()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger-System\\public\\index.php')
+ERROR - 2024-02-03 13:04:27 --> mysqli_sql_exception: Unknown column 'gender' in 'field list' in C:\laragon\www\CoffeeLedger-System\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger-System\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\CoffeeLedger-System\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\CoffeeLedger-System\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\CoffeeLedger-System\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\CoffeeLedger-System\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\CoffeeLedger-System\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\CoffeeLedger-System\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\CoffeeLedger-System\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\CoffeeLedger-System\app\Controllers\UserController.php(43): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\CoffeeLedger-System\system\CodeIgniter.php(919): App\Controllers\UserController->register()
+#10 C:\laragon\www\CoffeeLedger-System\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\laragon\www\CoffeeLedger-System\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CoffeeLedger-System\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CoffeeLedger-System\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-02-03 13:04:27 --> Unknown column 'gender' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`LastName`, `FirstName`, `gender`, `email`, `ContactNo`, `UserRole`, `Password`, `address`, `birthdate`) VALUES (:LastName:, :FirstName:, :gender:, :email:, :ContactNo:, :UserRole:, :Password:, :address:, :birthdate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(43): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger-System\\public\\index.php')
+ERROR - 2024-02-03 13:05:53 --> mysqli_sql_exception: Unknown column 'Password' in 'field list' in C:\laragon\www\CoffeeLedger-System\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\CoffeeLedger-System\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\CoffeeLedger-System\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\CoffeeLedger-System\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\CoffeeLedger-System\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\CoffeeLedger-System\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\CoffeeLedger-System\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\CoffeeLedger-System\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\CoffeeLedger-System\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\CoffeeLedger-System\app\Controllers\UserController.php(43): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\CoffeeLedger-System\system\CodeIgniter.php(919): App\Controllers\UserController->register()
+#10 C:\laragon\www\CoffeeLedger-System\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\laragon\www\CoffeeLedger-System\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CoffeeLedger-System\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CoffeeLedger-System\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-02-03 13:05:53 --> Unknown column 'Password' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`LastName`, `FirstName`, `gender`, `email`, `ContactNo`, `UserRole`, `Password`, `address`, `birthdate`) VALUES (:LastName:, :FirstName:, :gender:, :email:, :ContactNo:, :UserRole:, :Password:, :address:, :birthdate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(43): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger-System\\public\\index.php')
+CRITICAL - 2024-02-03 13:29:09 --> Invalid file: "adminregister.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adminregister.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adminregister', [], true)
+ 3 APPPATH\Controllers\UserController.php(50): view('adminregister', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\CoffeeLedger-System\\public\\index.php')
